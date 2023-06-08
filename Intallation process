@@ -1,1 +1,18 @@
+npx create-next-app@latest
 
+npx shadcn-ui init
+
+Note: Replace the content array in tailwind.config.js
+
+content: [
+	'./src/**/*.{ts,tsx}',
+	'./components/**/*.{ts,tsx}',
+],
+
+npx shadcn-ui add card
+
+npx shadcn-ui add button
+
+npx shadcn-ui add separator
+
+npx shadcn-ui add switch
